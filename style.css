@@ -1,0 +1,17 @@
+#nav{
+    column-count: auto;
+    column-gap: normal;
+}
+
+#titulo{
+    border-style: dashed;
+    border-color: black;
+    border-radius: 15%;
+    border-spacing: 40px;
+}
+
+#texto1{
+    font-size: large;
+    border-style: solid;
+    border-color: blueviolet;
+}
