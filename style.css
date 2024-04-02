@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #f5f5f5 ;
+    background-color: white ;
 }
 
 .titulo{
@@ -19,14 +19,14 @@ body{
 .slider-box{
     width: 1280px;
     height: auto;
-    margin: 50px auto 0;
-
+    margin: 100px auto 0;
+    overflow: hidden;
 }
 
 .slider-box ul{
     display: flex;
     padding: 0;
-    width: 400%;
+    width: 200%;
     animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -41,7 +41,7 @@ body{
     text-align: center;
     padding: 0 250px;
     top: 250px;
-    color: #FFFFFF;
+    color: black;
 }
 
 .texto h2{
@@ -51,5 +51,13 @@ body{
 
 .slider-box img{
     width: 100%;
-    
+}
+
+@keyframes slide {
+    0%{ margin-left: 0;}
+    20% {margin-left: 0;}
+
+    75% { margin-left: -100%;}
+    100% { margin-left: -100%;}
+
 }
