@@ -1,0 +1,11 @@
+#titulo1{
+    border-style: solid;
+    border-width: 15px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-color: blue;
+
+    background-color: rgb(83, 83, 235);
+    height: 50%;
+}
