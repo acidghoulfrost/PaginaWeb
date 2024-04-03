@@ -13,13 +13,13 @@ body{
 .titulo{
     text-align: center;
     font-size: 40px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .slider-box{
-    width: 1280px;
-    height: auto;
-    margin: 100px auto 0;
+    width: 800px;
+    height: 750px;
+    margin: 10px auto 0;
     overflow: hidden;
 }
 
@@ -40,12 +40,12 @@ body{
     position: absolute;
     text-align: center;
     padding: 0 250px;
-    top: 250px;
+    top: 100px;
     color: black;
 }
 
 .texto h2{
-    font-size: 45px;
+    font-size: 20px;
     margin-bottom: 35px;
 }
 
