@@ -26,7 +26,7 @@ body{
 .slider-box ul{
     display: flex;
     padding: 0;
-    width: 200%;
+    width: 300%;
     animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -57,7 +57,10 @@ body{
     0%{ margin-left: 0;}
     20% {margin-left: 0;}
 
-    75% { margin-left: -100%;}
-    100% { margin-left: -100%;}
+    20%{ margin-left: -100;}
+    45% {margin-left: -100;}
+
+    75% { margin-left: -200%;}
+    100% { margin-left: -200%;}
 
 }
