@@ -34,13 +34,14 @@ body {
     border-radius: 5px;
 
     display: flex;
-    justify-content: left;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
 
-
+#imagenes {
+    padding: 20px;
+}
 
 #fotocajas {
     opacity: 70%;
